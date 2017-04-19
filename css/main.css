@@ -1,0 +1,435 @@
+/* Rows of same height*/
+
+.row-full-height {
+    height: 100%;
+}
+.col-full-height {
+    height: 100%;
+    vertical-align: middle;
+}
+.row-same-height {
+    display: table;
+    width: 100%;
+    /* fix overflow */
+    
+    table-layout: fixed;
+    color: #FFFFFF;
+}
+.col-sm-height {
+    display: table-cell;
+    float: none !important;
+}
+@media screen and (max-width: 767px) {
+    .col-xs-12 {
+        display: table-row;
+    }
+}
+@media (min-width: 768px) {
+    .col-sm-height {
+        display: table-cell;
+        float: none !important;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-height {
+        display: table-cell;
+        float: none !important;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-height {
+        display: table-cell;
+        float: none !important;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+#section-first {
+    background-color: #87509C;
+}
+.navbar-header-section1 li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    font-size: large;
+}
+.active {
+    background-color: #643A79;
+    padding: 10px 15px 10px 15px;
+    color: #FFFFFF;
+}
+.custom-margin-50 {
+  padding-top: 50px;
+}
+#header > .navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-brand {
+    padding: 0px;
+}
+.jumbotron_1 {
+    background-color: transparent;
+    color: inherit;
+    margin-bottom: 77px;
+}
+.jumbotron_1 h2 {
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: bold;
+}
+#btn-work-with-us {
+    color: #fff;
+    background-color: #EB7D4B;
+    border-color: #EB7D4B;
+    width: 295px;
+    height: 71px;
+    font-weight: 600;
+    padding: 20px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    margin: auto;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 63px;
+}
+/* Second Section */
+
+#section-second {
+    background-color: #17C2A4;
+    padding-top: 52px;
+    padding-bottom: 110px;
+}
+.our-services h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+.our-services {
+    color: #FFFFFF;
+    background-color: transparent;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.our-services p {
+    font-weight: 600;
+    font-size: large;
+}
+.sec-second-row img {
+    vertical-align: middle;
+    height: 130px;
+    width: 140px;
+}
+.sec-second-row h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+.sec-second-row p {
+    margin: 0 0 10px;
+    font-size: larger;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*THird Section */
+
+#section-third {
+    background-color: #E7F1F8;
+    padding-bottom: 120px;
+}
+.caption img {
+    height: 40px;
+    width: 40px;
+}
+.our-team {
+    background-color: transparent;
+}
+.sec-third-row h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: x-large;
+    font-weight: 900;
+}
+.sec-third-row h5 {
+    font-size: 16px;
+    color: #47BFE7;
+}
+.caption p {
+    color: #525D75;
+    font-size: large;
+}
+.our-team h2 {
+    font-size: 45px;
+    color: #3C4761;
+    font-weight: 700;
+}
+.our-team p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #808B9D;
+}
+/*Fourth Section*/
+
+#section-four {
+    background-color: #FFFFFF;
+    padding-bottom: 125px;
+}
+.jumbotron {
+    background-color: transparent;
+}
+.section-four-row h3 {
+    color: #374158;
+    font-size: 24px;
+    font-weight: 600;
+}
+.section-four-row img {
+    height: 175px;
+    width: 175px;
+}
+.section-four-row {
+    padding-bottom: 125px;
+}
+.our-skills p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+    color: #565F76;
+}
+.our-skills h2 {
+    font-size: 48px;
+    color: #3C4761;
+    font-weight: bold;
+}
+/*Section Five CSS*/
+
+#section-five {
+    background-color: #FFDD99;
+    padding-bottom: 105px;
+}
+.our-portfolio h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 62px;
+}
+.our-portfolio p {
+    padding-top: 10px;
+}
+.our-portfolio {
+    margin-bottom: 0px;
+}
+.thumbnail img {
+    width: 540px;
+    height: 310px;
+}
+.thumbnail {
+    background-color: transparent;
+    border: 0px;
+}
+.thumbnail h3 {
+    color: #393939;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+}
+#btn-all {
+    color: #393939;
+    background-color: #fff;
+    border-color: transparent;
+}
+.btn-default {
+    height: 40px;
+    width: 85px;
+    text-align: center;
+    font-size: large;
+}
+#btn-web,
+#btn-apps,
+#btn-icons {
+    background-color: #000000;
+    border-color: transparent;
+    color: #393939;
+}
+#btn-load-projects {
+    background-color: #17C2A4;
+    border-color: transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 70px;
+    width: 295px;
+    margin-top: 28px !important;
+    padding-top: 20px;
+}
+/*Section Six*/
+
+#section-sixth {
+    background-color: #D74680;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+.customers h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+.customers p {
+    margin-bottom: 15px;
+    font-size: 19px;
+    font-weight: 200;
+}
+.media-body p {
+    margin: 0 0 30px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+}
+.media-body h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.media-body h5 {
+    font-size: 18px;
+    color: #FFDD99;
+    font-weight: 300;
+}
+#row2 {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 150px;
+}
+/*Section 7 */
+
+#section-seventh {
+    background-color: #3C5499;
+    color: #FFFFFF;
+}
+.form-fillup-customers h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.form-fillup-customers p {
+    font-size: 20px;
+}
+input[type="text"] {
+    background-color: #273A71;
+    border-color: transparent;
+    font-size: 22px;
+    font-weight: 400;
+    width: 100%;
+    color: #FFFFFF !important;
+}
+input[type="email"] {
+    background-color: #273A71;
+    border-color: transparent;
+    font-size: 22px;
+    font-weight: 400;
+    width: 100%;
+    color: #FFFFFF !important;
+}
+input[placeholder] {
+    color: #FFFFFF !important;
+}
+#btn-send-message {
+    color: #fff;
+    background-color: #30BAE7;
+    border-color: #30BAE7;
+    width: 295px;
+    height: 71px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 120px;
+    padding-top: 20px;
+}
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    
+    color: #FFFFFF !important;
+}
+.footer-nav li>a {
+    height: 110px;
+    color: #FFFFFF;
+    border-color: #344B8E;
+    font-size: 26px;
+    font-weight: bold;
+    width: 160px;
+    margin: auto;
+    vertical-align: middle;
+    display: table-cell;
+}
+#yourmesg {
+    height: auto;
+    background-color: #273A71;
+    border-color: transparent;
+    font-size: 22px;
+    font-weight: 400;
+    width: 100%;
+    color: #FFFFFF !important;
+}
+#yourname,
+#youremail {
+    margin-bottom: 20px;
+}
+.navbar-bottom {
+    background-color: #344B8E;
+    border: transparent;
+}
+.navbar-bottom {
+    position: static;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar-bottom .navbar-nav>li>a {
+    color: #FFFFFF;
+}
+@media (min-width: 768px) {
+    .footer-nav {
+        display: table;
+        height: 50px;
+    }
+}
+@media (min-width: 768px) {
+    .footer-nav li>a {
+        color: #FFFFFF;
+        border-color: #344B8E;
+        font-size: 26px;
+        font-weight: bold;
+        width: 140px;
+        vertical-align: middle;
+        display: table-cell;
+        margin: 0 auto;
+        table-layout: fixed;
+        float: none;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-nav,
+    .footer-nav li>a {
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+        float: none;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        height: 20px;
+        padding-left: 0px;
+    }
+}
+@media (max-width: 767px) {
+    #yourname,
+    #youremail {
+        margin-bottom: 10px;
+    }
+}
